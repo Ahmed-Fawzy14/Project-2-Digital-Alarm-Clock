@@ -1,0 +1,40 @@
+module tb();
+  
+    
+    reg clk, reset, en; //seconds ones enable
+  wire [6:0] segments;
+  wire [3:0] anodes;
+    wire alarm;
+  wire [21:0] count;
+  
+  prog uut
+  (
+  
+    .clk(clk), 
+    .reset(reset), 
+    .en(en), //seconds ones enable
+    .segments(segments),
+    .anodes(anodes),
+    .alarm(alarm),
+    .count(count)
+  
+  );
+      
+  
+
+  
+  
+  initial begin
+    
+    en = 1'b1;
+    clk = 1; 
+    forever #25 clk=~clk;     
+    
+    
+    $display("At time: %t, count is: %b", $time, count);  
+  
+  
+  end
+  
+  
+endmodule
