@@ -8,7 +8,7 @@
 *
 * Change history: 
 * 16/05/24 - Added FSM from our design
-* 17/05/24 - Added the 
+* 17/05/24 - Added the incrementing/decrementing feature
 * 18/05/24 - Debugging
 * 19/05/24 - Done
 
