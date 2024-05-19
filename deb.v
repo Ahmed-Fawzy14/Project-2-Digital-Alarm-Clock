@@ -1,23 +1,14 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 04/23/2024 06:49:06 PM
-// Design Name: 
-// Module Name: Debouncer
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+/*******************************************************************
+*
+* Module: debouncer.v
+* Project: Digital_Clock_Alarm
+* Author: name and email
+* Description: put your description here
+*
+* Change history: 15/5/2024 – Created this module
+* 18/5/2024 - Changed the file name
+**********************************************************************/
 
 module debouncer(input clk, rst, in, output out);
  reg q1,q2,q3;
