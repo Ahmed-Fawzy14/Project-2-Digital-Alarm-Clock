@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 /*******************************************************************
 *
-* Module: Clock.v
+* Module: alarm.v
 * Project: DigitalClock
 * Author: Ahmed Abdelkader, Tony Gerges, Ahmed Abdeen
 * Description: This is the module that controls the alarm 
