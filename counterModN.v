@@ -1,23 +1,13 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05/12/2024 12:45:07 PM
-// Design Name: 
-// Module Name: counterModN
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+/*******************************************************************
+*
+* Module: counterModN.v
+* Project: DigitalClock
+* Author: Ahmed Abdelkader, Tony Gerges, Ahmed Abdeen
+* Description: This module is used to model a counter which is used in simulating the clock
+*
+* Change history: 15/5/2024 – Created this module
+**********************************************************************/
 
 
 module counterModN 
