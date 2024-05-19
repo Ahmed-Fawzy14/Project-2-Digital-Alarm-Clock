@@ -1,23 +1,16 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05/06/2024 03:19:41 PM
-// Design Name: 
-// Module Name: Rising_edge_detector
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+/*******************************************************************
+*
+* Module: programRun.v
+* Project: DigitalClock
+* Author: Ahmed Abdelkader, Tony Gerges, Ahmed Abdeen
+* Description: This module is used in the push button detector to detect if there is a rising edge in the signal
+*
+* Change history: 
+* 16/05/24 - Created the module
+
+
+**********************************************************************/
 
 
 module Rising_edge_detector(input clk, rst, w, output z);
