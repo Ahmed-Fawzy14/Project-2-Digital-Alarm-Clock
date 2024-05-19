@@ -1,24 +1,16 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05/06/2024 03:23:25 PM
-// Design Name: 
-// Module Name: synchronizer
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+/*******************************************************************
+*
+* Module: synchronizer.v
+* Project: DigitalClock
+* Author: Ahmed Abdelkader, Tony Gerges, Ahmed Abdeen
+* Description: This module synchronizes the signal coming from the debouncer with the clock
+*
+* Change history: 
+* 16/05/24 Created this module for the pushButtons used in the project for adjusting
 
+
+**********************************************************************/
 
 module synchronizer(input  clk,rst,signal,
   output reg  sync_signal
