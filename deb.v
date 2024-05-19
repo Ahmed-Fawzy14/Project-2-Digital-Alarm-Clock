@@ -4,7 +4,7 @@
 * Module: debouncer.v
 * Project: DigitalClock
 * Author: Ahmed Abdelkader, Tony Gerges, Ahmed Abdeen
-* Description: put your description here
+* Description: This module debounces the signal of the push button making sure it is processed when it is stable
 *
 * Change history: 15/5/2024 – Created this module
 * 18/5/2024 - Changed the file name
