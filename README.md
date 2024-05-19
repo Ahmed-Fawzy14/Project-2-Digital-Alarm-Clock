@@ -1,7 +1,13 @@
-# Project-2-Digital-Alarm-Clock
+# Project-2: Digital Alarm Clock
 
-Currently this repo has the working 24hr ClockAlarm system including the AlarmCounter system which drives the selection for which registers to adjust. IT also has the ASM, FSM, psuedo code, DataPath, and Control Unit for this project.
+## Overview
 
-Ahmed Fawzy Abdelkader  
-Ahmed Abdeen
-Tony Gerges
+This repository contains the Verilog source code for a 24-hour digital alarm clock. The design specifications and process are detailed in the datapath, control unit, ASM, and FSM charts, as well as in the accompanying report. Additionally, a Logisim Evolution file is provided to demonstrate the prototype for this project.
+
+**Note:** This is a Mealy machine.
+
+## Contributors
+
+- Ahmed Fawzy Abdelkader
+- Ahmed Abdeen
+- Tony Gerges
