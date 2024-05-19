@@ -42,7 +42,7 @@ SevenSegCase seg(.en(twoOut), .num(muxOut), .segments(segments),.anode_active(an
 
 
 
-  always @(*) begin
+   always @(*) begin  // choosing which part of the time (hours or minutes) to be displayed based on its anode position
   
   if(twoOut == 2'b00)
     muxOut = count[11:8];
