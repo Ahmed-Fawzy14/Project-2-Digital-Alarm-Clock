@@ -1,23 +1,14 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05/12/2024 01:37:55 PM
-// Design Name: 
-// Module Name: SevenSegCase
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+/*******************************************************************
+*
+* Module: SevenSegCase.v
+* Project: DigitalClock
+* Author: Ahmed Abdelkader, Tony Gerges, Ahmed Abdeen
+* Description: This is the module that is used to display the clock and alarm time on the seven segment display
+*
+* Change history: 14/05/24 - Created the module (inspired from the lab experiments)
+
+**********************************************************************/
 
 
 
