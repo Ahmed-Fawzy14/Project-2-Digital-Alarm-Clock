@@ -1,23 +1,19 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05/12/2024 01:26:32 PM
-// Design Name: 
-// Module Name: program
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+/*******************************************************************
+*
+* Module: programRun.v
+* Project: DigitalClock
+* Author: Ahmed Abdelkader, Tony Gerges, Ahmed Abdeen
+* Description: This module has the FSM and CU control signals
+*
+* Change history: 
+* 16/05/24 - Created the module
+* 17/05/24 - deleted redundant code blocks and fixed bugs
+* 18/05/24 - fixed bugs
+* 19/05/24 - Done
+
+
+**********************************************************************/
 
 
 module clockState(
