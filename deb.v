@@ -2,7 +2,7 @@
 /*******************************************************************
 *
 * Module: debouncer.v
-* Project: Digital_Clock_Alarm
+* Project: DigitalClock
 * Author: Ahmed Abdelkader, Tony Gerges, Ahmed Abdeen
 * Description: put your description here
 *
