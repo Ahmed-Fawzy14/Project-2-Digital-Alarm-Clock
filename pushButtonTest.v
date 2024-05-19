@@ -1,23 +1,19 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05/16/2024 12:52:33 PM
-// Design Name: 
-// Module Name: pushButtonTest
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+/*******************************************************************
+*
+* Module: pushButtonTest.v
+* Project: DigitalClock
+* Author: Ahmed Abdelkader, Tony Gerges, Ahmed Abdeen
+* Description: This module tests if the push Button detector works
+*
+* Change history: 
+* 16/05/24 - Added FSM from our design
+* 17/05/24 - Added the 
+* 18/05/24 - Debugging
+* 19/05/24 - Done
+
+
+**********************************************************************/
 
 
 module pushButtonTest(
