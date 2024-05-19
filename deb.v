@@ -3,7 +3,7 @@
 *
 * Module: debouncer.v
 * Project: Digital_Clock_Alarm
-* Author: name and email
+* Author: Ahmed Abdeen Ahmed AbdelKader Tony Gerges
 * Description: put your description here
 *
 * Change history: 15/5/2024 – Created this module
