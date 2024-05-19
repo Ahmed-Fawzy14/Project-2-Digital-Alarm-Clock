@@ -123,7 +123,7 @@ module programRun(
     //when going to adjust: send 200hz, disbale, incremeant and send it as in_count
     //When we are returing to clock from adjust: enable clocks, send 1hz
     
-    
+    integer i;
     
     
 
@@ -137,7 +137,7 @@ assign zFlag = ((count_from_clock[11:8] == count_from_alarm[3:0]) & (count_from_
 
         Clock: 
         begin 
-            if(zFlag) 
+            if(zFlag & (count_from_clock[11:8] != 0)) 
                  begin//If currentTime and alarmTime are the same AND any button is pressed or not pressed expect BTNC     
                     nextState = Alarm;
                     LEDstate={4'b0000, new_clk};
@@ -166,7 +166,7 @@ assign zFlag = ((count_from_clock[11:8] == count_from_alarm[3:0]) & (count_from_
 
                    
             end  
-            else begin      
+            else begin     
                   nextState = Clock;
                   LEDstate =5'b00000;
                   en_clock = 1;
